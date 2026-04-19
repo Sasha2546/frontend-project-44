@@ -1,20 +1,10 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "Проект игры разума предстваляет собой 5 уникальных и разнообразных игр, которые проверят ваш мозг на прочность!",
-  "homepage": "https://github.com/Sasha2546/frontend-project-44#readme",
-  "bugs": {
-    "url": "https://github.com/Sasha2546/frontend-project-44/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sasha2546/frontend-project-44.git"
-  },
-  "license": "ISC",
-  "author": "Sasha2546",
+  "description": "Brain Games",
+  "main": "index.js",
   "type": "module",
-  "main": "bin/brain-games.js",
-"bin": {
+  "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
@@ -29,8 +19,11 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "eslint": "^10.2.0",
-    "globals": "^17.5.0"
-  }
+    "@eslint/js": "^9.0.0",
+    "@stylistic/eslint-plugin": "^2.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0"
+  },
+  "author": "Sasha2546",
+  "license": "ISC"
 }
