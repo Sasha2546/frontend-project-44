@@ -10,7 +10,6 @@ const generateProgression = (start, step, length) => {
   }
   return progression
 }
-
 const generateRound = () => {
   const start = getRandomInt(1, 20)
   const step = getRandomInt(2, 10)
