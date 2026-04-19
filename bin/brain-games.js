@@ -1,4 +1,3 @@
 #!/usr/bin/env node
-import sayHiToPlayer from '../src/cli.js';
-
-sayHiToPlayer();
+import { greetAndWelcome } from '../src/cli.js'
+greetAndWelcome()
